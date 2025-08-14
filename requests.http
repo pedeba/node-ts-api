@@ -1,0 +1,15 @@
+POST http://localhost:3000/courses
+Content-Type: application/json
+
+
+{
+  "title": "C"
+}
+
+### GET /courses
+
+GET http://localhost:3000/courses
+
+### GET /courses id
+
+GET http://localhost:3000/courses/6ba00b05-5d80-468f-98d2-e7a0a46b3ff3
